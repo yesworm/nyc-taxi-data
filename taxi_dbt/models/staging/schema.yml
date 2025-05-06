@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: nyc_taxi_raw
+    database: nyc-taxi-analytics-459001
+    schema: nyc_taxi_raw
+    tables:
+      - name: yellow_tripdata_2021_01
+
+models:
+  - name: stg_yellow_tripdata_2021_01
+    description: "Staging model for yellow taxi data (Jan 2021)"

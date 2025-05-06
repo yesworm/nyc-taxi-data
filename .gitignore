@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+
+# dbt artifacts
+target/
+dbt_modules/
+dbt_packages/
+
+# Credentials
+gcp-key.json
